@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django local DB & media uploads
+db.sqlite3
+data/uploads/
+data/faiss_index/
+data/faiss_index.bin
+data/faiss_metadata.pkl
+data/bm25_index.pkl
+media/
+
+# Virtual Environment & IDE
+venv/
+.venv/
+.idea/
+.vscode/
+*.log
+*.sqlite3
+.pytest_cache/
+staticfiles/
